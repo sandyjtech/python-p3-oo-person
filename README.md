@@ -20,6 +20,7 @@ To practice object oriented programming (OOP), you're going to create a `Person`
 
 In the instructions below, you'll see the class constructor, instance methods, and properties referenced with different notation.
 - `Class_Name(optional_values)` indicates invoking a classes constructor to create a new instance of the class
+- `Class attribute` indicates that instances of this class should possess this attribute (no getter or setter method needed)
 - `Class property attribute` indicates that an attribute should be configured as a property of the class, with getter and setter methods assigned as needed
 - `Class method_name(self, *optional_args)` indicates an instance method of the class
 
@@ -34,9 +35,6 @@ Create a `Person` class with the behavior described below. You may need to confi
     - `Person hygiene` with an initial value of 8
 
 - `Person property name` gets and returns the person's name (no setter)
-- `Person property bank_account` gets and/or sets the person's bank account
-- `Person property happiness` gets and/or sets the value of the person's happines points
-- `Person property hygiene` gets and/or sets the value of the person's hygiene points
 
 ### Instance methods
 
